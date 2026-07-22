@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#f8f9fa;
+}
+
+/* Navbar */
+
+.navbar{
+background:#d90429;
+}
+
+.navbar-brand{
+font-size:28px;
+font-weight:700;
+}
+
+.nav-link{
+color:white!important;
+font-weight:500;
+margin-left:20px;
+}
+
+.nav-link:hover{
+color:#ffe066!important;
+}
+
+/* Hero */
+
+.hero{
+padding:80px 0;
+}
+
+.hero h1{
+font-size:55px;
+font-weight:700;
+color:#d90429;
+}
+
+.hero p{
+font-size:20px;
+color:#555;
+}
+
+.hero img{
+width:100%;
+}
+
+.btn-red{
+background:#d90429;
+color:white;
+padding:12px 30px;
+border-radius:30px;
+font-weight:600;
+}
+
+.btn-red:hover{
+background:#b00020;
+color:white;
+}
+
+.card-box{
+border:none;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,.1);
+transition:.3s;
+}
+
+.card-box:hover{
+transform:translateY(-10px);
+}
+
+.stat-card{
+background:white;
+padding:25px;
+border-radius:20px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+text-align:center;
+}
+
+footer{
+background:#222;
+color:white;
+padding:30px;
+margin-top:80px;
+}
